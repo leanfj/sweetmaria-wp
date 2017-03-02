@@ -7,8 +7,8 @@ var autoprefixer = require('gulp-autoprefixer');
 gulp.task('serve', ['sass'], function() {
 
     browserSync.init({
-        server: "./app",
-        tunnel: true
+        server: "./app"
+        // tunnel: true
     });
 
     gulp.watch("app/sass/*.sass", ['sass']);
