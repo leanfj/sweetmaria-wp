@@ -1,0 +1,118 @@
+@import reset
+$cor-padrao: #441F14
+$cor-sec: #E6D696
+
+body
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+	font-weight: 600
+header
+	position: fixed
+	width: 100%
+	background-color: $cor-padrao
+	height: 70px
+	display: flex
+	align-items: center
+	transition: 0.3s
+	img
+		height: 50px
+		margin-left: 20px
+		position: absolute
+		top: 10px
+	
+
+.collapse-header
+	height: 100px
+	background-color: rgba(0,0,0,0.3)
+	img
+		height: 100px
+		position: absolute
+		top: 30px
+		left: 20px 
+	.menu-header
+
+		
+.main-header
+	display: inline	
+	h1
+		position: absolute
+		left: -99999px
+
+	ul
+		position: absolute
+		top: 10px
+		right: 0
+		li
+			display: inline
+			margin-right: 30px
+		a
+			color: #fff
+			font-size: 20px
+.menu-header
+	width: 800px
+	margin-left: auto
+	margin-right: auto
+
+	ul
+		display: flex
+		justify-content: space-around
+		margin-left: 0
+	a
+		border: 2px solid #fff
+		padding: 5px 10px
+		text-transform: uppercase
+		color: #fff
+
+.slide
+	width: 100%
+	background-image: url(../img/slider2.jpg)
+	background-position: center
+	background-size: cover
+	background-color: $cor-padrao
+	height: 100vh
+
+.produtos
+	nav
+		margin-top: 30px
+	ul
+		display: flex
+		justify-content: space-around
+	li
+		width: 190px
+		height: 190px
+		background-color: $cor-padrao
+		display: flex
+		justify-content: space-around
+		align-items: center
+		text-align: center
+		border-radius: 50%
+	a
+		color: $cor-sec
+.circle
+	display: flex
+	align-items: center
+	justify-content: space-around
+	width: 170px
+	height: 170px
+	border: 2px solid $cor-sec
+	border-radius: 50%
+.rodape
+	margin-top: 30px
+	height: 30px
+	background-color: $cor-sec
+	display: flex
+	justify-content: center
+	align-items: center
+	color: $cor-padrao
+	a
+	 color: $cor-padrao
+	 text-decoration: underline
+	li
+		display: inline
+		margin-left: 20px
+	li:nth-child(3)
+		margin-right: 100px
+.info
+	margin-top: 10px
+	margin-bottom: 10px
+	text-align: center
+	color: $cor-padrao	
