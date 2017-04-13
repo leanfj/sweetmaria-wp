@@ -13,7 +13,7 @@ body {
 header {
   position: fixed;
   width: 100%;
-  background-color: #441F14;
+  background-color: #574435;
   height: 70px;
   display: -ms-flexbox;
   display: flex;
@@ -58,21 +58,24 @@ header {
   .menu-header ul {
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     margin-left: 0; }
   .menu-header a {
+    color: #fff;
     border: 1px solid #fff;
+    border-radius: 3px;
     padding: 5px 10px;
-    text-transform: uppercase;
-    color: #fff; }
+    font-size: 1.2em; }
 
 .slide {
   width: 100%;
   background-image: url(../img/slider2.jpg);
   background-position: center;
   background-size: cover;
-  background-color: #441F14;
+  background-color: #574435;
   height: 100vh; }
 
 .produtos nav {
@@ -82,12 +85,14 @@ header {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around; }
+  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
 
 .produtos li {
   width: 190px;
   height: 190px;
-  background-color: #441F14;
+  background-color: #574435;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
@@ -98,7 +103,7 @@ header {
   border-radius: 50%; }
 
 .produtos a {
-  color: #E6D696; }
+  color: #E0DC8B; }
 
 .circle {
   display: -ms-flexbox;
@@ -109,22 +114,22 @@ header {
   justify-content: space-around;
   width: 170px;
   height: 170px;
-  border: 2px solid #E6D696;
+  border: 2px solid #E0DC8B;
   border-radius: 50%; }
 
 .rodape {
   margin-top: 30px;
   height: 30px;
-  background-color: #E6D696;
+  background-color: #ED4C57;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
   justify-content: center;
   -ms-flex-align: center;
   align-items: center;
-  color: #441F14; }
+  color: #574435; }
   .rodape a {
-    color: #441F14;
+    color: #574435;
     text-decoration: underline; }
   .rodape li {
     display: inline;
@@ -136,4 +141,4 @@ header {
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
-  color: #441F14; }
+  color: #574435; }

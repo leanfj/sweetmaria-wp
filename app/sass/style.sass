@@ -1,6 +1,6 @@
 @import reset
-$cor-padrao: #441F14
-$cor-sec: #E6D696
+$cor-padrao: #574435
+$cor-sec: #E0DC8B
 
 body
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
@@ -28,7 +28,6 @@ header
 		position: absolute
 		top: 30px
 		left: 20px 
-	.menu-header
 
 		
 .main-header
@@ -54,13 +53,15 @@ header
 
 	ul
 		display: flex
-		justify-content: space-around
+		justify-content: space-between
+		flex-wrap: wrap
 		margin-left: 0
 	a
-		border: 1px solid #fff
-		padding: 5px 10px
-		text-transform: uppercase
 		color: #fff
+		border: 1px solid #fff
+		border-radius: 3px
+		padding: 5px 10px
+		font-size: 1.2em
 
 .slide
 	width: 100%
@@ -76,6 +77,7 @@ header
 	ul
 		display: flex
 		justify-content: space-around
+		flex-wrap: wrap
 	li
 		width: 190px
 		height: 190px
@@ -98,7 +100,7 @@ header
 .rodape
 	margin-top: 30px
 	height: 30px
-	background-color: $cor-sec
+	background-color: #ED4C57
 	display: flex
 	justify-content: center
 	align-items: center
